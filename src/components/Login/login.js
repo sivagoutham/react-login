@@ -3,7 +3,7 @@ import Input from '../Input/input-component';
 
 import "./login.css";
 
-const validName = RegExp(/^[A-Za-z]+$/)
+const validName = RegExp(/^[A-Za-z ]+$/)
 const validEmailRegex = RegExp(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/);
 const validPassword = RegExp(/^[0-9a-zA-Z]+$/)
 class Login extends Component {
