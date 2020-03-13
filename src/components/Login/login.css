@@ -1,6 +1,6 @@
 .center {
     margin-left: 35%;
-    width: 35%;
+    width: 36%;
     border: 2px solid #637a91;
     padding: 0px 0px 20px 0px;
   }
@@ -69,4 +69,9 @@ input, label {
 }
 .anchorTag{
     text-decoration: none;
+}
+.error{
+    font-size: 10px;
+    float: left;
+    color: red;
 }

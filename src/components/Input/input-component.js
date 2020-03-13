@@ -1,16 +1,17 @@
 import React from 'react';
 
 const Input = (props)=>{
+  let val =  props.data
     return(
         <div style={props.style}>
-                <label className='styleLabel' htmlFor="name">{props.text}</label>
+                <label className='styleLabel' htmlFor={props.text}>{props.text}</label>
                 <input className='textboxStyle'
-                  id="name"
-                  type="text"
-                  value={props.value}
+                  type={props.type}
                   onChange={props.handleChange}
-                  name="name"
-                />
+                  name= {props.text}
+                /> 
+                <span className='error'>{val}</span>
+                
               </div>
     )
 }
