@@ -1,8 +1,12 @@
 .center {
-    margin-left: 35%;
-    width: 36%;
     border: 2px solid #637a91;
     padding: 0px 0px 20px 0px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
   }
 
 .header{
